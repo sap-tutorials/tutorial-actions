@@ -1,4 +1,4 @@
-# add-task-issue-labels
+# SAP Tutorial Actions
 
 > A GitHub Action built with [Probot](https://github.com/probot/probot) that A Probot app
 > Created to set issue labels on task issue created following feedback link
