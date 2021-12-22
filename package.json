@@ -1,0 +1,33 @@
+{
+  "name": "tutorial-actions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An Probot action to label task issues",
+  "license": "ISC",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "dependencies": {
+    "@probot/adapter-github-actions": "^3.0.1",
+    "probot-commands": "^1.1.0"
+	
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@zeit/ncc": "^0.22.3",
+    "semantic-release": "^18.0.1",
+    "nock": "^13.2.1",
+    "uvu": "^0.5.2"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

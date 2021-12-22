@@ -1,0 +1,5 @@
+name: "SAP task issue labeler"
+description: "Will label newly created issues initiated from feedback link."
+runs:
+  using: "node12"
+  main: "dist/index.js"
