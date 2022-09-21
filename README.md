@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/sap-tutorials/tutorial-actions)](https://api.reuse.software/info/github.com/sap-tutorials/tutorial-actions)
+
 # SAP Tutorial Actions
 
 > A GitHub Action built with [Probot](https://github.com/probot/probot) that A Probot app
